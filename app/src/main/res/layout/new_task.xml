@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+    <EditText
+        android:id="@+id/newtaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Add New Task"
+        android:paddingLeft="5dp"
+        />
+    <Button
+        android:id="@+id/newTaskbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newtaskText"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:text="Add"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>
